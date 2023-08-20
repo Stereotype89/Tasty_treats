@@ -1,0 +1,51 @@
+//------- DESCTOP ----------//
+@media screen and (min-width: 1280px) {
+  .hero-wrap {
+    width: 100%;
+    display: flex;
+  }
+  .title-wrap {
+    margin: 0 auto;
+    padding-top: 125px;
+    padding-right: 32px;
+  }
+
+  .title-wrap {
+    text-align: left;
+    width: 446px;
+    font-weight: 400;
+  }
+  .title {
+    color: var(--black_2);
+    width: 446px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+  .title > span {
+    color: #9bb537;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+  .title-wrap > p {
+    color: #050505;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+  .order-btn {
+    border: 1px solid #9bb537;
+    padding: 14px 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+  }
+}
